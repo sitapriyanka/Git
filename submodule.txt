@@ -1,0 +1,9 @@
+git submodule foreach git reset --hard
+
+git submodule update --remote
+
+git reset --hard
+
+git submodule add https://git submodule url
+
+git config --system core.longpaths true
